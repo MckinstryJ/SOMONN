@@ -1,4 +1,6 @@
 # Second Order Meta-Optimized Neural Network
+![Screenshot](Poster.png)
+
 <b>By:</b> John Mckinstry <b>Mentor:</b> Dr. Steve Beaty
 
 <b>Summary:</b> During this independent study, I developed a way to improve an existing Neural Evolution of Augmenting Topologies algorithm. The existing algorithm, created by CodeReclaimers, is located here: 
@@ -24,5 +26,7 @@ The number of hidden layers, which activation function to use, the NEAT's popula
 <br /> <br />
 <b>Repeat 2-4 until the specified generations for GA<sub>2</sub> is met.</b>
 <br /> <br />
-
 <b>Results:</b> Towards the end of the independent study, I discovered that by adding another genetic algorithm to the existing NEAT algorithm I was able to improve the possible application of this algorithm by automating the process of finding which set of settings were needed to optimize the model's ability to map a particular dataset's inputs to expected outputs. The improvement from the NEAT's base configuration file to the Meta-Optimized configuration file was significant even though the time complexity of adding another genetic algorithm increased by almost 110000%.
+<br /> <br />
+<b>Future Work:</b><br />
+At sometime in the future, I would eventually like to reapproach this topic by finding which set of settings naturally do better at chaotic time series to reduce the search space even further. I would also like to figure out how I can reduce the time complexity by applying the threads on a GPU vs the mere 8 threads on a typical CPU.
