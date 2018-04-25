@@ -1,6 +1,4 @@
-# SOMONN
-<h3><b>Second Order Meta-Optimized Neural Network</b></h3>
-<br />
+# Second Order Meta-Optimized Neural Network
 <b>By:</b> John Mckinstry <b>Mentor:</b> Dr. Steve Beaty
 
 <b>Summary:</b> During this independent study, I developed a way to improve an existing Neural Evolution of Augmenting Topologies algorithm. The existing algorithm, created by CodeReclaimers, is located here: 
